@@ -1,0 +1,80 @@
+---
+---
+
+@import "minima";
+.avatar {
+  margin: 0 2rem;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+}
+
+.nav-container{
+  position: fixed;
+  left: 5px;
+  width: 275px;
+  border: 1px solid lightgrey;
+  h3 {
+    padding-left: 15px;
+  }
+  ul {
+    list-style-type: none;
+    li {
+      padding-bottom: 10px;
+      &.tag-h1 {
+        font-size: 1.4em;
+      }
+      &.tag-h2 {
+        font-size: 1.1em;
+      }
+      &.tag-h3 {
+        font-size: .8em;
+      }
+    }
+  }
+}
+
+.wrapper {
+  margin-left: 275px;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    margin-left: 5px;
+  }
+  .nav-container {
+    position: relative;
+    width: auto;
+    left: 0;
+  }
+}
+
+/* Styles for ipython notebook markdown output  */
+.jupyter-output {
+  .highlighter-rouge.language-python .highlight {
+    background: #eef;
+    code {
+      background-color: #eef;
+    }
+  }
+  .highlighter-rouge .highlight {
+    background: #fff;
+    code {
+      background-color: #fff;
+    }
+  }
+  div.highlighter-rouge:not(.language-python) {
+    div.highlight::before {
+      content: "Output";
+      font-size: .7em;
+      left: 7px;
+      bottom: -10px;
+      position: relative;
+      background-color: #fff;
+    }
+    div.highlight {
+      margin-top: -15px;
+      margin-bottom: 30px;
+    }
+  }
+}
