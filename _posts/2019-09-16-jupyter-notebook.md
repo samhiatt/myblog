@@ -1,7 +1,8 @@
 ---
-title: Markdown
+title: Jupyter Notebook Output
 layout: jupyter_output
 ---
+## A random example playing with Redis API
 ```python
 import redis, json
 ```
