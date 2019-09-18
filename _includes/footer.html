@@ -3,34 +3,32 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
     <div class="footer-col-wrapper">
       
-    <!--img src="{{ "/images/me.jpeg" | relative_url }}" alt="Sam Hiatt" class="avatar" -->
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+            <img src="{{ site.author_avatar_url | relative_url }}" alt="profile photo" class="avatar" >
+          </li>
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+	  <li>{%- include social.html -%}</li>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
       <div class="footer-col footer-col-3">
+        <h2 class="footer-heading">{{ site.title | escape }}</h2>
         <p>{{- site.description | escape -}}</p>
       </div>
-    </div>
 
+      <!--div class="footer-col footer-col-3">
+      </div-->
+    </div>
+    <div class="license-container">
+      <div>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+      <div><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></div>
+    </div>
   </div>
 
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>

@@ -1,12 +1,32 @@
 ---
 ---
 
+
 @import "minima";
+.avatar-container {
+  width: 100%;
+}
 .avatar {
-  margin: 0 2rem;
+  margin-left: auto;
+  margin-right: auto;
   width: 100px;
-  border-radius: 50%;
-  float: left;
+  border-radius: 47%;
+}
+.contact-list {
+  text-align: center;
+}
+
+/* CC-by-sa 4.0 license */
+.license-container {
+  div {
+    display: grid;
+    float: left;
+    font-size: small;
+    padding: 0 7px;
+  }
+  a {
+    display: contents;
+  }
 }
 
 .nav-container{
