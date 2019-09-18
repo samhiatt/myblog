@@ -2,7 +2,7 @@
 title: Jupyter Notebook Output
 layout: jupyter_output
 ---
-## A random example playing with Redis API
+# A random example playing with Redis API
 ```python
 import redis, json
 ```
@@ -308,44 +308,50 @@ And block quotes:
 Cool, huh?
 
 ### Another H3 With A Really Long Title That Should Wrap
+here is some content
 
 ## Another H2
+more content
 
 # An H1
+content after H1
 
-# And an H2
+## And an H2 1 
+more content
 
-# And an H2
+## And an H2 2
 
-# And an H2
+## And an H2 3
 
-# And an H2
+## And an H2 4
 
-# And an H2
+## And an H2 5
 
-# And an H2
+## And an H2 6
 
-# And an H2
+## And an H2 7 
 
-# And an H2
+## And an H2 8 
 
-# And an H2
+## And an H2 9 
 
-# And an H2
+## And an H2 1 
 
-# And an H2
+## And an H2 1
 
-# And an H2
+## And an H2 1 
 
-# And an H2
+## And an H2 1
 
-# And an H2
+## And an H2 1
 
-# And an H2
+## And an H2 1
 
-# And an H2
+## And an H2 1
 
-# And an H2
+## And an H2 1
+
+### An H3
 
 #### An H4
 
