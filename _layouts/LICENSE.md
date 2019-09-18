@@ -4,8 +4,8 @@ https://github.com/jekyll/minima/blob/v2.5.0/LICENSE.txt
 ---------------------------
 The MIT License (MIT)
 
-Copyright (c) 2016-present Parker Moore and the minima contributors
-Copyright (c) 2019 Sam Hiatt
+Copyright (c) 2016-present Parker Moore and the minima contributors  
+Copyright (c) 2019 Sam Hiatt  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
