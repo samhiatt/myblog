@@ -7,7 +7,7 @@ title: Adventures in Code
 email: samhiatt@gmail.com
 description: >- 
   A space where I share my adventures in artificial intelligence and machine learning.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/myblog" # the subpath of your site, e.g. /blog
 url: "https://samhiatt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #repository: "samhiatt/samhiatt.github.io"
 #twitter_username: 
